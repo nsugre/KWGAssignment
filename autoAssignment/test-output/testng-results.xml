@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-21T17:46:12 IST" name="Test Suite" finished-at="2023-04-21T17:47:45 IST" duration-ms="93325">
+    <groups>
+    </groups>
+    <test started-at="2023-04-21T17:46:12 IST" name="Regression_Chrome" finished-at="2023-04-21T17:47:45 IST" duration-ms="93325">
+      <class name="regression.SampleTest">
+        <test-method is-config="true" signature="preRequisite()[pri:0, instance:regression.SampleTest@1e0b4072]" started-at="2023-04-21T17:46:12 IST" name="preRequisite" finished-at="2023-04-21T17:46:13 IST" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisite -->
+        <test-method is-config="true" signature="startBrowser(java.lang.String,java.lang.reflect.Method)[pri:0, instance:regression.SampleTest@1e0b4072]" started-at="2023-04-21T17:46:13 IST" name="startBrowser" finished-at="2023-04-21T17:46:24 IST" duration-ms="11041" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void regression.SampleTest.verifyE2ETest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="verifyE2ETest()[pri:0, instance:regression.SampleTest@1e0b4072]" started-at="2023-04-21T17:46:24 IST" name="verifyE2ETest" finished-at="2023-04-21T17:47:44 IST" duration-ms="80149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyE2ETest -->
+        <test-method is-config="true" signature="stopBrowser(org.testng.ITestResult)[pri:0, instance:regression.SampleTest@1e0b4072]" started-at="2023-04-21T17:47:44 IST" name="stopBrowser" finished-at="2023-04-21T17:47:45 IST" duration-ms="873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyE2ETest status=SUCCESS method=SampleTest.verifyE2ETest()[pri:0, instance:regression.SampleTest@1e0b4072] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+        <test-method is-config="true" signature="postTestMethod()[pri:0, instance:regression.SampleTest@1e0b4072]" started-at="2023-04-21T17:47:45 IST" name="postTestMethod" finished-at="2023-04-21T17:47:45 IST" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTestMethod -->
+      </class> <!-- regression.SampleTest -->
+    </test> <!-- Regression_Chrome -->
+  </suite> <!-- Test Suite -->
+</testng-results>

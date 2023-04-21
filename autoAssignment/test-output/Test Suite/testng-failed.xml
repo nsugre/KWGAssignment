@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Regression_Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="regression.SampleTest">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="stopBrowser"/>
+          <include name="verifyE2ETest"/>
+          <include name="preRequisite"/>
+          <include name="postTestMethod"/>
+        </methods>
+      </class> <!-- regression.SampleTest -->
+    </classes>
+  </test> <!-- Regression_Chrome(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
